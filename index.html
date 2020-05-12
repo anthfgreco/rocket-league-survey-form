@@ -1,0 +1,190 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+    <title>Rocket League Survey</title>
+</head>
+
+<div id="headerdiv">
+  <h1 id="title">
+    Rocket League Survey Form
+  </h1>
+
+  <p id="description">
+    Thank you for taking the time to help us improve our game
+  </p>
+</div>
+
+
+<form id="survey-form">
+  
+  <label id="name-label" for="name">Name</label>
+  <input id="name"
+         type="text"
+         name="name"
+         placeholder="Enter your name"
+         required>
+
+  <label id="email-label" for="email">Email</label>
+  <input id="email"
+         type="email"
+         name="email"
+         placeholder="Enter your email"
+         required>
+  
+  <label id="number-label" for="number">Age</label>
+  <input id="number"
+         type="number"
+         name="age"
+         placeholder="Enter your age"
+         min="0"
+         max="130"
+         required>
+  
+  <label id="hours-label" for="dropdown">Hours played</label>
+  <select id="hours"
+          name="hours"
+          required>
+    <option disabled selected value>Select how many hours played</option>
+    <option value="0-199">0-199</option>
+    <option value="200-399">200-399</option>
+    <option value="400-599">400-599</option>
+    <option value="600-799">600-799</option>
+    <option value="800-999">800-999</option>
+    <option value="1000-1499">1000-1499</option>
+    <option value="1500-1999">1500-1999</option>
+    <option value="2000+">2000+</option>
+  </select>
+  
+  <label id="dropdown-label" for="dropdown">Rank</label>
+  <select id="dropdown"
+          name="rank"
+          required>
+    <option disabled selected value>Select current rank</option>
+    <option value="bronze">Bronze</option>
+    <option value="silver">Silver</option>
+    <option value="gold">Gold</option>
+    <option value="diamond">Diamond</option>
+    <option value="champ">Champ</option>
+    <option value="grandchamp">Grand Champ</option>
+  </select>
+  
+  <fieldset>
+    <legend>What tier are you?</legend>
+    
+    <input id="tierone" type="radio" name="tier" value="tierone">
+    <label for="tierone">Tier I</label>
+    
+    <input id="tiertwo" type="radio" name="tier" value="tiertwo">
+    <label for="tiertwo">Tier II</label>
+    
+    <input id="tierthree" type="radio" name="tier" value="tierthree">
+    <label for="tierthree">Tier III</label>
+  </fieldset>
+  
+  <p>
+    Select the mechanics you are comfortable with (Check all that apply)
+  </p>
+  
+  <label class="mechanic">
+    <input type="checkbox"
+           name="mechanic"
+           value="clearball">
+    Clear ball
+  </label>
+  <label class="mechanic">
+    <input type="checkbox"
+           name="mechanic"
+           value="powershot">
+    Power shot
+  </label>
+  <label class="mechanic">
+    <input type="checkbox"
+           name="mechanic"
+           value="grounddribbling">
+    Ground Dribbling
+  </label>
+  <label class="mechanic">
+    <input type="checkbox"
+           name="mechanic"
+           value="wallshot">
+    Wallshot
+  </label>
+  <label class="mechanic">
+    <input type="checkbox"
+           name="mechanic"
+           value="airdribble">
+    Air Dribbling
+  </label>
+  <label class="mechanic">
+    <input type="checkbox"
+           name="mechanic"
+           value="fastaerial">
+    Fast Aerial
+  </label>
+  <label class="mechanic">
+    <input type="checkbox"
+           name="mechanic"
+           value="halfflip">
+    Half Flip
+  </label>
+  <label class="mechanic">
+    <input type="checkbox"
+           name="mechanic"
+           value="frontflipflick">
+    Frontflip Flick
+  </label>
+  <label class="mechanic">
+    <input type="checkbox"
+           name="mechanic"
+           value="backflipflick">
+    Backflip Flick
+  </label>
+  <label class="mechanic">
+    <input type="checkbox"
+           name="mechanic"
+           value="shadowdefense">
+    Shadow Defense
+  </label>
+  <label class="mechanic">
+    <input type="checkbox"
+           name="mechanic"
+           value="wavedash">
+    Wave dash
+  </label>
+  <label class="mechanic">
+    <input type="checkbox"
+           name="mechanic"
+           value="bouncedribbling">
+    Bounce Dribbling
+  </label>
+  <label class="mechanic">
+    <input type="checkbox"
+           name="mechanic"
+           value="ceilingshot">
+    Ceiling Shot
+  </label> 
+  
+  <p>
+    Any comments or suggestions?
+  </p>
+  <textarea id="textarea"
+            name="textarea"
+            placeholder="Enter any suggestions here..."
+  ></textarea>
+    
+  <button id="submit" type="submit">Submit</button> 
+
+</form>
+
+<footer>
+  <div>
+    <a href="https://twitter.com/rocketleague" class="fa fa-twitter"  target="_blank"></a>
+    <a href="https://www.facebook.com/RocketLeague" class="fa fa-facebook"  target="_blank"></a>
+    <a href="https://www.instagram.com/rocketleague/" class="fa fa-instagram"  target="_blank"></a>
+    <a href="https://www.twitch.tv/directory/game/Rocket%20League" class="fa fa-twitch"  target="_blank"></a>
+    <a href="https://reddit.com/r/RocketLeague/" class="fa fa-reddit"  target="_blank"></a>
+    <a href="https://www.youtube.com/RocketLeagueGame" class="fa fa-youtube"  target="_blank"></a>
+  </div>
+</footer>
+

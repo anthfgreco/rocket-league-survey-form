@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.9),
+      rgba(136, 136, 206, 0.8)
+    ), 
+    url('https://rocketleague.media.zestyio.com/rl_platform_keyart_2019.f1cb27a519bdb5b6ed34049a5b86e317.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+#title {
+  margin: 1rem auto 0 auto;
+}
+
+#description {
+  margin: 0.25rem auto 1rem auto;
+}
+
+#survey-form {
+  background: rgba(27, 27, 50, 0.8);
+  padding: 0.7rem 1rem 2.5rem 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+#name-label, #email-label, #number-label, #hours-label, #dropdown-label, fieldset, p {
+  margin: 1rem 1rem 0.3rem 1rem;
+}
+
+#name, #email, #number, #dropdown, select {
+  margin: 0 1rem 0 1rem;
+}
+
+.mechanic {
+  margin: 0 1rem;
+}
+
+textarea { 
+  resize: vertical;
+  min-height: 5rem;
+  margin: 0 1rem 0 1rem;
+  padding: 0.4rem;
+  border-radius: 4px;
+  border: none;
+}
+
+#submit {
+  margin: 1.3rem 1rem 0 1rem;
+  cursor: pointer;
+  background: #32c994;
+  display: block;
+  padding: 0.7rem;
+  border-radius: 4px;
+  border: none;
+  color: inherit;
+  font: inherit;
+}
+
+input, select {
+  padding: 0.4rem;
+  border-radius: 4px;
+  border: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background: rgba(27, 27, 50, 0.8);
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    border-radius: 0.25rem;
+    width: auto;
+    justify-content: center;
+}
+
+.fa {
+  padding: 20px !important;
+  font-size: 25px !important;
+  width: 27px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  margin: 5px 2px !important;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+  background: #e95950;
+  color: white;
+}
+
+.fa-twitch {
+    background: #6441a5;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+@media (max-width: 700px) {
+  #survey-form, footer {
+    width: 100%;
+  }
+}
+
+
+
