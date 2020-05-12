@@ -140,6 +140,18 @@ footer {
     color: white;
 }
 
+@media (max-width: 1360px)  { 
+    #survey-form, footer {
+    width: auto;
+  }
+}
+
+@media (max-width: 980px)  { 
+  #survey-form, footer {
+    width: 90%;
+  }
+}
+
 @media (max-width: 500px) {
   #survey-form, footer {
     width: 100%;
