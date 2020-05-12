@@ -148,15 +148,13 @@ footer {
 
 @media (max-width: 980px)  { 
   #survey-form, footer {
-    width: 90%;
+    width: 100%;
+  }
+  html, body {
+      font-size: 1.2rem;
   }
 }
 
-@media (max-width: 500px) {
-  #survey-form, footer {
-    width: 100%;
-  }
-}
 
 
 
